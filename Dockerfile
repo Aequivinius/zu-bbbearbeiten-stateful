@@ -49,4 +49,4 @@ EXPOSE 8000
 # Run the application.
 CMD gunicorn 'main:app' --bind=0.0.0.0:8000
 
-LABEL org.opencontainers.image.source https://github.com/aequivinius/zu-bbbearbeiten-stateless
+LABEL org.opencontainers.image.source https://github.com/aequivinius/zu-bbbearbeiten-stateful
